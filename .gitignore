@@ -1,0 +1,39 @@
+# Compiled Java bytecode & output directories
+*.class
+out/
+**/out/
+bin/
+**/bin/
+
+# Java archives & crash logs
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Build tools (if learner imports labs into Maven/Gradle later)
+target/
+**/target/
+build/
+**/build/
+.gradle/
+
+# IDEs & Editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# OS & temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+sources.txt
